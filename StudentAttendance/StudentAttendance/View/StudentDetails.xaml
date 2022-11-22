@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentAttendance.View.StudentDetails">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Student Details" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <TableView HasUnevenRows="True">
+                <TableRoot>
+                    <TableSection Title="Student Information">
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="First Name"/>
+                                <Entry Placeholder="Firstname" Text="{Binding FirstName}"/>
+                                <Label Text="Last Name"/>
+                                <Entry Placeholder="Lastname" Text="{Binding LastName}"/>
+                                <Entry Placeholder="Email" Text="{Binding EmailAdd}"/>
+                                <Label Text="Date of Birth"/>
+                                <DatePicker Date="{Binding DateofBirth}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <StackLayout>
+                <Button x:Name="btnUpdate" Text="Save" BackgroundColor="Orange" Clicked="btnUpdate_Clicked"/>
+                <Button x:Name="btnDelete" Text="Delete" TextColor="#FFF" BackgroundColor="Red" Clicked="btnDelete_Clicked"/>
+                <Button x:Name="btnCancel" Text="Cancel" BackgroundColor="#FFD3D3" Clicked="btnCancel_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+   
+</ContentPage>

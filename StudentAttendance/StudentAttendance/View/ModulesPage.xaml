@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentAttendance.View.ModulesPage">
+    <ContentPage.Content>
+        <StackLayout>
+           
+            <ListView x:Name="lvmodules" ItemSelected="lvmodules_ItemSelected"  ItemsSource="{Binding AllModules}" HasUnevenRows="True" SeparatorVisibility="Default" >
+                <!--IsPullToRefreshEnabled="True" IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                      RefreshCommand="{Binding RefreshCommand}" RefreshControlColor="MistyRose"-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="10,10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Title}" FontSize="Medium" FontAttributes="Bold"/>
+                                    <Label Text="{Binding MCode}" FontSize="Medium" FontAttributes="Bold"/>
+                                </StackLayout>
+                                <Label Text="{Binding CreditUnits}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="btnLogOut" Text="Log Out" BackgroundColor="Orange" Clicked="btnLogOut_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

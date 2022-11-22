@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentAttendance.View.AllStudents"
+             Title="Students">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding SearchTerm}" Placeholder="Search by name..."/>
+            <ListView x:Name="lvstudent" ItemSelected="lvstudent_ItemSelected"  ItemsSource="{Binding AllStudents}" HasUnevenRows="True" SeparatorVisibility="Default" >
+                <!--IsPullToRefreshEnabled="True" IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                      RefreshCommand="{Binding RefreshCommand}" RefreshControlColor="MistyRose"-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="10,10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding FirstName}" FontSize="Medium" FontAttributes="Bold"/>
+                                    <Label Text="{Binding LastName}" FontSize="Medium" FontAttributes="Bold"/>
+                                </StackLayout>
+                                <Label Text="{Binding DateofBirth}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="btnAddStudent" Text="Add Person" BackgroundColor="Orange" Clicked="btnAddStudent_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

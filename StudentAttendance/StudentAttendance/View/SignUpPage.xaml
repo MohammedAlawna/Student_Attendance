@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentAttendance.View.SignUpPage"
+             Title="Sign Up" BackgroundColor="#e6e6e6">
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <Grid >
+            <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="800" BackgroundColor="#e6e6e6"></Frame>
+            </StackLayout>
+            <StackLayout Padding="0" Margin="0,20" HorizontalOptions="FillAndExpand">
+                <Frame HeightRequest="220" BackgroundColor="#e6e6e6" Padding="0" Margin="0">
+                    <Image HeightRequest="220" Source="https://i.ibb.co/HV9hf3Q/att-logo.png" Margin="0"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="0" Margin="10,254,10,0" HorizontalOptions="FillAndExpand">
+
+                <StackLayout>
+
+                    <StackLayout Spacing="10" Padding="0" Margin="15,50">
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn-icons-png.flaticon.com/512/219/219988.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry x:Name="entFirstname" Text="{Binding FirstName}" Placeholder="First Name" TextColor="HotPink" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn-icons-png.flaticon.com/512/219/219988.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry x:Name="entLastname" Text="{Binding LastName}" Placeholder="Last Name" TextColor="HotPink" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn-icons-png.flaticon.com/512/219/219988.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry x:Name="entEmail" Text="{Binding EmailAdd}" Placeholder="Email" TextColor="HotPink" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                    <Image Source="https://cdn-icons-png.flaticon.com/512/421/421648.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Entry x:Name="entPword" Text="{Binding Password}" Placeholder="Password" IsPassword="True" TextColor="Orange" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Button x:Name="btnSignUp" Clicked="btnSignUp_Clicked"  Text="Sign Up" BackgroundColor="Orange" TextColor="White" CornerRadius="30" />
+                        
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>
