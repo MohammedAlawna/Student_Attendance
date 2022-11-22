@@ -1601,11 +1601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
       "projectName": "StudentAttendance.iOS",
-      "projectPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
+      "projectPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
       "packagesPath": "C:\\Users\\savio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.iOS\\obj\\",
+      "outputPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1626,8 +1626,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj": {
-              "projectPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj"
+            "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj": {
+              "projectPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj"
             }
           }
         }

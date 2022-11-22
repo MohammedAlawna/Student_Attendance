@@ -2599,11 +2599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.Android\\StudentAttendance.Android.csproj",
+      "projectUniqueName": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.Android\\StudentAttendance.Android.csproj",
       "projectName": "StudentAttendance.Android",
-      "projectPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.Android\\StudentAttendance.Android.csproj",
+      "projectPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.Android\\StudentAttendance.Android.csproj",
       "packagesPath": "C:\\Users\\savio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.Android\\obj\\",
+      "outputPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2624,8 +2624,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj": {
-              "projectPath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj"
+            "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj": {
+              "projectPath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.csproj"
             }
           }
         }

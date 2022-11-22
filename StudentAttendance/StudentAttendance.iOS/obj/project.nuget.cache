@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "teZvbauvLiLaD0hU2I+ZgAt1OISlk2D5RDUf88BNELKq6CCyqwiQ+GCWfUED3igUMbAbugB1xLqXM6sy4K2vzw==",
+  "dgSpecHash": "Q64Dab/POsiufXV7HDgBDSAymU2kn4pHK8RWR6XmhlrkjmGzCBLs9CTqcgRhDm8wFRiBBBd3y7HIKznz5T3GTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\savio\\Desktop\\StudentAttendance\\StudentAttendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
+  "projectFilePath": "C:\\Users\\savio\\Documents\\GitHub\\Student_Attendance\\StudentAttendance\\StudentAttendance.iOS\\StudentAttendance.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\savio\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\savio\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
