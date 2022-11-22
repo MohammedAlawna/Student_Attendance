@@ -112,6 +112,7 @@ namespace StudentAttendance.Model
             stud.LastName == lname.ToLower())
             .FirstOrDefault();
             return student;
+            //TODO Saviola is the best coder.
         }
 
         public Student VerifyStudLog(string emailAdd, string password)
